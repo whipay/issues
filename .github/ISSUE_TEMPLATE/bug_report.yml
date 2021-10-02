@@ -1,6 +1,6 @@
 
 name: Bug report
-about: Report a bug you found to help us improbe our application
+description: Report a bug you found to help us improbe our application
 title: '[BUG]: '
 labels: ['bug']
 assignees: 'jariasga'
