@@ -1,19 +1,21 @@
 
 name: Bug report
-about: Report found bug to help us improbe our application
+about: Report a bug you found to help us improbe our application
 title: '[BUG]: '
-labels: 'bug'
+labels: ['bug']
 assignees: 'jariasga'
 
 body:
- - type markdown:
+ - type: markdown
    attrbutes:
     value: |
      Thanks for taking the time to fill and report this bug !
- - type: datetime
+
+ - type: input
    id: date
    attributes: 
-   label: Date and time
-   format: rfc3339
-   validations:
+    label: Date and time   
+    placeholder: Example: 2021-01-01T00:00:00Z
+    format: rfc3339
+    validations:
     required: true
