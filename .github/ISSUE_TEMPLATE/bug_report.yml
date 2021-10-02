@@ -7,7 +7,7 @@ assignees: 'jariasga'
 
 body:
  - type: markdown
-   attrbutes:
+   attributes:
     value: |
      Thanks for taking the time to fill and report this bug !
 
@@ -16,5 +16,5 @@ body:
    attributes: 
     label: Date and time   
     placeholder: ex. 2021-01-01T00:00:00Z
-    validations:
-     required: true
+   validations:
+    required: true
