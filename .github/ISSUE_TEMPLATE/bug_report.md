@@ -1,10 +1,10 @@
-
+'''
 name: Bug report
 about: Report found bug to help us improbe our application
 title: '[BUG]: '
 labels: 'bug'
 assignees: 'jariasga'
-
+'''
 body:
  - type markdown:
    attrbutes:
