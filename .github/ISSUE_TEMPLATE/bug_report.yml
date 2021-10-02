@@ -1,6 +1,6 @@
 
 name: Bug report
-description: Report a bug you found to help us improbe our application
+description: Report a bug you found to help us improve our application
 title: '[BUG]: '
 labels: ['bug']
 assignees: 'jariasga'
@@ -18,14 +18,7 @@ body:
     placeholder: ex. 01-01-2021 00:00:00
    validations:
     required: true
- - type: textarea
-   id: what-happened
-   attributes:
-    label: What happened?
-    description: Please write the problem witch much details as possible
-    placeholder: Describe the problem
-   validations:
-    required: true
+    
  - type: input
    id: url
    attributes:
@@ -34,6 +27,16 @@ body:
     placeholder: ex. https://whipay.pe
    validations:
     required: true
+    
+ - type: textarea
+   id: what-happened
+   attributes:
+    label: What happened?
+    description: Please write the problem witch much details as possible
+    placeholder: ex. I was making a purchase and page went blank
+   validations:
+    required: true
+    
  - type: dropdown
    id: browsers
    attributes:
@@ -45,6 +48,7 @@ body:
      - Safari
      - Firefox
      - Other
+     
  - type: textarea
    id: images
    attributes:
@@ -53,6 +57,7 @@ body:
     placeholder: Drag and drop your pictures here
    validations:
     required: false
+    
  - type: input
    id: contact
    attributes:
@@ -61,6 +66,7 @@ body:
     placeholder: ex. no_reply@whipay.pe
    validations:
     required: false
+    
  - type: checkboxes
    id: terms
    attributes:
