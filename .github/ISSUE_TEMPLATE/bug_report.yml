@@ -6,11 +6,11 @@ labels: 'bug'
 assignees: 'jariasga'
 
 body:
-	- type markdown:
+ - type markdown:
    attrbutes:
     value: |
      Thanks for taking the time to fill and report this bug !
-	-	type: datetime
+ - type: datetime
    id: date
    attributes: 
    label: Date and time
