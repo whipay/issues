@@ -16,3 +16,5 @@ body:
    label: Date and time
    format: rfc3339
    placeholder: Example: 2021-01-01T00:00:00Z
+   validations:
+    required: true
