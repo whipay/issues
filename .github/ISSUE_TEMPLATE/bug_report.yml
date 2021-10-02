@@ -15,6 +15,57 @@ body:
    id: date
    attributes: 
     label: Date and time   
-    placeholder: ex. 2021-01-01T00:00:00Z
+    placeholder: ex. 01-01-2021 00:00:00
    validations:
     required: true
+   
+  - type: textarea
+    id: what-happened
+    attributes:
+     label: What happened?
+     description: Please write the problem witch much details as possible
+     placeholder: Describe the problem
+    validations:
+     required: true
+  - type: input
+    id: url
+    attributes:
+     label: URI
+     description: Please provide the full URL/PATH
+     placeholder: ex. https://whipay.pe
+  - type: dropdown
+    id: browsers
+    attributes:
+     label: What browser were you using?
+     multiple: true
+     options:
+      - Chrome
+      - Edge
+      - Safari
+      - Firefox
+      - Other
+  - type: textarea
+    id: images
+    attributes:
+     label: Attachments
+     description: If possible, please attach some pictures
+     placeholder: Drag and drop your pictures here
+    validations:
+     required: false
+  - type: input
+    id: contact
+    attributes:
+     label: Contact info
+     description: Please provide your email in case we need more information
+     placeholder: ex. no_reply@whipay.pe
+    validations:
+     required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+     label: Terms and conditions
+     description: By submitting this issue, you agree to follow our T&C
+     options:
+      -label: I agree to follow this project T&C
+       required: true
+    
