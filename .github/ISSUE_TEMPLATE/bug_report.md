@@ -1,12 +1,22 @@
----
+
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+about: Report found bug to help us improbe our application
+title: '[BUG]: '
+labels: 'bug'
+assignees: 'jariasga'
 
----
-
+body:
+ - type markdown:
+   attrbutes:
+    value: |
+     Thanks for taking the time to fill and report this bug !
+ - type: datetime
+   id: date
+   attributes: 
+   label: Date and time
+   format: rfc3339
+   placeholder: Example: 2021-01-01T00:00:00Z
+   
 **Describe the bug**
 A clear and concise description of what the bug is.
 
